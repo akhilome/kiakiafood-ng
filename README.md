@@ -1,6 +1,6 @@
 # KiakiafoodNg
 
-[![CircleCI](https://circleci.com/gh/akhilome/kiakiafood-ng.svg?style=shield)](https://circleci.com/gh/akhilome/kiakiafood-ng)
+[![CircleCI](https://circleci.com/gh/akhilome/kiakiafood-ng.svg?style=shield)](https://circleci.com/gh/akhilome/kiakiafood-ng) [![Maintainability](https://api.codeclimate.com/v1/badges/ea58a99c7992d74202b2/maintainability)](https://codeclimate.com/github/akhilome/kiakiafood-ng/maintainability)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
