@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "kiakiafood",
+  "alias": "kiakiafood",
   "builds": [
     {
       "src": "package.json",
