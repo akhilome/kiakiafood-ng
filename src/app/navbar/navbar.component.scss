@@ -1,0 +1,37 @@
+header {
+  align-items: center;
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  justify-content: space-between;
+  padding: 5px 20px;
+  position: relative;
+  text-transform: lowercase;
+  width: calc(100% - 40px);
+}
+
+.site-title {
+  a {
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: -2px;
+  }
+}
+
+nav {
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  a {
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 10px;
+
+    &:hover {
+      color: #fff;
+      background: rgba(41, 152, 111, 0.5);
+    }
+  }
+}
