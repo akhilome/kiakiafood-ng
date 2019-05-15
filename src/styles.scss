@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: url('./assets/bg_default.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+a {
+  color: #2a9971;
+  text-decoration: none;
+}
+
+button a {
+  color: #fff;
+}
+
+input[type='submit'],
+button {
+  background: #333;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 4px -2px rgba(36, 18, 77, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  padding: 15px 20px;
+  text-transform: lowercase;
+}
+
+button:hover {
+  background: #666;
+}
+
+button.small {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+button.transparent {
+  background-color: transparent;
+  color: #fff;
+}
+
+button.danger {
+  background: #b82e33;
+}
+
+button.danger:hover {
+  background: rgba(184, 46, 51, 0.7);
+}
+
+.btn-primary,
+button.primary {
+  background: #1d6b4f;
+}
+
+.btn-primary:hover,
+button.primary:hover {
+  background: #2a9971;
+}
