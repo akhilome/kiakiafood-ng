@@ -1,1 +1,3 @@
 /node_modules
+/.circleci
+/e2e
