@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "test:watch": "jest --watch",
-    "now-build": "export NODE_ENV=production && ng build --prod --output-path dist"
+    "now-build": "ng build --prod --output-path dist"
   },
   "private": true,
   "dependencies": {
