@@ -1,3 +1,5 @@
+@import 'toastify-js/src/toastify.css';
+
 body {
   background: url('assets/bg_default.jpg');
   background-attachment: fixed;
@@ -63,4 +65,63 @@ button.primary {
 .btn-primary:hover,
 button.primary:hover {
   background: #2a9971;
+}
+
+/* Wrapper */
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 200px);
+}
+
+.wrapper.auth {
+  justify-content: center;
+}
+
+.container {
+  margin: 25px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: block;
+}
+
+input {
+  border: 1px solid #666;
+  border-radius: 6px;
+  display: block;
+  margin: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  width: 200px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+input[type='submit'] {
+  background: #1d6b4f;
+  margin: auto;
+  width: auto;
+}
+
+input[type='checkbox'] {
+  width: auto;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset > div {
+  align-items: center;
+  border: 1px solid #2a9971;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 20px;
+  margin: 10px auto;
 }

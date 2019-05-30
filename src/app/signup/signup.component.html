@@ -1,0 +1,49 @@
+<div class="wrapper auth">
+  <section class="container">
+    <h2>Create An Account</h2>
+
+    <form (submit)="signUp(); $event.preventDefault()">
+      <input
+        type="text"
+        name="name"
+        [(ngModel)]="userDetails.name"
+        placeholder="Your full name"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="userDetails.email"
+        placeholder="Your Email Address"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        [(ngModel)]="userDetails.password"
+        placeholder="Choose Password"
+        required
+      />
+      <input
+        type="password"
+        name="password-confirm"
+        [(ngModel)]="userDetails.confirmPassword"
+        placeholder="Confirm Password"
+        required
+      />
+      <input
+        type="password"
+        name="admin-secret"
+        [(ngModel)]="userDetails.adminSecret"
+        placeholder="Admin Secret [optional]"
+      />
+      <input type="submit" name="submit" value="Sign Up" class="btn-primary" />
+    </form>
+    <div>
+      <p>
+        Already have an account?
+        <a routerLink="/sign-in">Sign In</a>
+      </p>
+    </div>
+  </section>
+</div>
